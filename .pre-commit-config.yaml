@@ -1,5 +1,5 @@
--   repo: https://github.com/awebdeveloper/pre-commit-imageoptim
-       sha: '' # Use the sha or tag you want to point at like 0.0.1
-       hooks:
-       -   id: imageoptim
-           additional_dependencies: ['imageoptim-cli']
+- repo: https://github.com/awebdeveloper/pre-commit-imageoptim
+  sha: "0.0.1"
+  hooks:
+    - id: imageoptim
+      additional_dependencies: ["imageoptim-cli"]
